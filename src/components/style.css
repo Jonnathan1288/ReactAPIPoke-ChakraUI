@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .logo {
+    width: 50px; /* Ajusta el tamaño del logotipo según tus necesidades */
+    height: 50px;
+    margin-right: 10px; /* Espacio entre el logotipo y el título */
+  }
+  
+  .title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  

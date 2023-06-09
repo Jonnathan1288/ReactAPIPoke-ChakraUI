@@ -5,13 +5,31 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 
+//Para las rutas
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Cats, { CatsComponent } from './componentsCats/CatsComponent';
+
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
+// import { CatsComponent } from './componentsCats/CatsComponent';
+
 root.render(
   <StrictMode>
-    <ColorModeScript />
-    <App />
+    <BrowserRouter>
+      <ColorModeScript />
+      {/* <App /> */}
+
+
+      <Routes>
+        <Route path='' Component={App} />
+
+        <Route path='/cats' Component={CatsComponent} />
+
+      </Routes>
+
+
+    </BrowserRouter>
   </StrictMode>
 );
 
