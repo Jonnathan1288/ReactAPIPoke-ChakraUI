@@ -8,9 +8,9 @@
   }
   
   .logo {
-    width: 50px; /* Ajusta el tamaño del logotipo según tus necesidades */
+    width: 50px; 
     height: 50px;
-    margin-right: 10px; /* Espacio entre el logotipo y el título */
+    margin-right: 10px; 
   }
   
   .title {
